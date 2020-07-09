@@ -27,17 +27,19 @@ puts "In the array journalists there are #{names_first_maj} elements that starts
 #5 Trie la liste de handle par ordre alphabétique.
 ordered_array = journalists.sort_by {|x| x.downcase}
 puts ' '
-puts "ORDERED ARRAY : "
-#puts ordered_array
+puts "ORDERED ARRAY Alphabetically: "
+puts ordered_array
+puts ""
 
 #6 Trie la liste de handle par taille des handle (les plus petits en premiers, les plus grands après)
 
     #Already done for the second question 
         #journalists.sort_by(&:length)
         #ordered_arr_by_lenght = journalists.sort_by(&:length)
-
+puts "ORDERED ARRAY by lenght: "
 puts ordered_arr_by_lenght
 
+puts "#################"
 
 #7 Quelle est la position dans l'array de la personne @epenser ?
 index_epenser = journalists.index("@epenser")
